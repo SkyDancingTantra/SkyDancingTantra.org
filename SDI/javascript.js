@@ -1,6 +1,6 @@
 /*
-Code ©2016 Ecstatic Living Institute All rights reserved.
-Created by Conscious Apps Inc. www.consciousapps.com
+Code ©2016 SkyDancing Tantra Institute. All rights reserved.
+Created by Conscious Apps Inc., www.consciousapps.com
 */
 $(document).ready(function() {
 

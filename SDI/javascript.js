@@ -151,11 +151,6 @@ $(document).ready(function() {
 		$navButton.trigger('click')
 	})
 
-	//	SOCIAL SHARE KIT
-	SocialShareKit.init({
-		title: document.title
-	})
-
 	//	INTRO MODAL
 	$('#button-modal-intro').on('click', function() {
 		if ($(window).width() < 768) {

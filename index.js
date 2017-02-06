@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 	//	DECLARATIONS
 	//	General
-	var siteUrl = 'http://www.ecstaticliving.com/',
+	var siteUrl = 'http://www.skydancingtantra.org/',
 		$main = $('.main'),
 		$mainSection = $('.main-section'),
 
@@ -755,10 +755,10 @@ $(document).ready(function() {
 		}
 		let paymentToken = false
 		var handler = StripeCheckout.configure({
-			key: 'pk_live_Vrm4z9BrnRFFE1PvogsOKiq5',
+			key: '',
 			image: 'https://daks2k3a4ib2z.cloudfront.net/564aac835a5735b1375b5cdf/56b9741e0758a4b421e7aa05_ELI-Logo-color-heart.jpg',
 			locale: 'auto',
-			name: 'Ecstatic Living',
+			name: 'SkyDancing Tantra',
 			description: stripeTitle[count],
 			billingAddress: true,
 			amount: eventPrice,
@@ -766,7 +766,7 @@ $(document).ready(function() {
 				paymentToken = true
 				$.ajax({
 					type: 'GET',
-					url: 'https://www.ecstaticliving.institute/stripe/stripe_charge.php',
+					url: '',
 					crossDomain: true,
 					dataType: 'jsonp',
 					jsonp: 'callback',

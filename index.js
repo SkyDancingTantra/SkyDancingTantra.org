@@ -50,6 +50,7 @@ $(document).ready(function() {
 		eventStripeDescriptions = $('.hidden.event-stripedescriptions').text()
 
 	//	INITIALIZE
+	var device
 	function initialize() {
 		if (Math.min($(window).width(), $(window).height()) >= 320) {
 			device = 'mobile'

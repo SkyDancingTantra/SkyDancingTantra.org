@@ -455,7 +455,7 @@ $(document).ready(function() {
 	$(regButton).on('click', function() {
 		$('.modals.redirect').show()
 		setTimeout(function() {
-			window.location.href = 'https://www.ecstaticliving.com/' + window.location.pathname.substr(1) + '?source=SDI#registration'
+			window.open('https://www.ecstaticliving.com/' + window.location.pathname.substr(1) + '?source=SDI#registration', '_blank')
 		}, 3000)
 		return false
 

@@ -454,11 +454,13 @@ $(document).ready(function() {
 
 	$(regButton).on('click', function() {
 		$('.modals.redirect').show()
-		console.log('modal');
 		setTimeout(function() {
-			window.location.href === window.location.pathname.substr(1) + '#registration'
+			window.location.href = 'https://www.ecstaticliving.com/' + window.location.pathname.substr(1) + '#registration'
 		}, 3000)
 		return false
+
+		// Ignore rest
+
 		// Causes Reg section to scroll smoothly on iOS
 		document.getElementById('registration-section').style.webkitOverflowScrolling = 'touch'
 		document.getElementById('registration-section-mobile').style.webkitOverflowScrolling = 'touch'

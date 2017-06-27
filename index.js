@@ -454,8 +454,9 @@ $(document).ready(function() {
 
 	$(regButton).on('click', function() {
 		$('.modals.redirect').show()
+		console.log('modal');
 		setTimeout(function() {
-			window.location.href === window.location.pathname.substr(1)
+			window.location.href === window.location.pathname.substr(1) + '#registration'
 		}, 3000)
 		return false
 		// Causes Reg section to scroll smoothly on iOS
